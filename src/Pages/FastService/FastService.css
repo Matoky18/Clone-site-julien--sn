@@ -1,0 +1,68 @@
+.container-FastService {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30 0%, #243b55 50%, #000000 100%);
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.container-FastService h1 {
+    color: aliceblue;
+    font-size: clamp(1.5rem, 5vw, 3.5rem);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: "Fugaz One", serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    max-width: 1200px;
+}
+
+.image-FastService {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    flex-grow: 1;
+    /* background: #fffbfb; */
+    background-image: url("../../assets/fast.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    position: relative;
+}
+
+/* Optional overlay to make text pop if needed, but image handles it mostly */
+
+.cta-fast {
+    font-weight: bolder;
+    font-size: clamp(0.9rem, 2.5vw, 1.5rem);
+    border: 2px solid black;
+    color: #ee1621;
+    background: #000000c4;
+    margin-bottom: clamp(20px, 5vw, 50px);
+    backdrop-filter: blur(25px);
+    width: clamp(280px, 90vw, 500px);
+    height: clamp(60px, 15vw, 100px);
+    border-radius: 50px;
+}
+
+.cta-fast:hover {
+    background: #0000006b;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .image-FastService {
+        background-position: center bottom;
+    }
+
+    .cta-fast {
+        font-size: 22px;
+        padding-block: 35px;
+    }
+
+}
