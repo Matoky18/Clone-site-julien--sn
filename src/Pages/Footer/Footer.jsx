@@ -9,10 +9,6 @@ const Footer = () => {
         <div className="footer-section footer-main">
           <h2 className="footer-logo">⚡ ELECTRICITE SN</h2>
           <p className="footer-tagline">Votre expert en électricité plus de 25ans</p>
-          <p className="footer-description">
-            Service professionnel et fiable pour tous vos besoins électriques.
-            Intervention rapide 24h/24 et 7j/7.
-          </p>
         </div>
 
         {/* Contact */}
