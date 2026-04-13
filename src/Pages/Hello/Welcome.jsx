@@ -118,7 +118,7 @@ const Welcome = () => {
 
             <div ref={phrasesRef} className="phrases">
 
-                <h1> Electricité Julien</h1>
+                <h1> ELECTRICITE SN</h1>
                 <h2 className="experience-text">Plus de 25 ans d’expérience</h2>
 
                 <h3>

@@ -67,7 +67,7 @@ const Diagno = () => {
       <div className="hero-diagno">
         <div className="block1 block">
           <div className="det">
-            <h2>Appeler Eléctricien Julien</h2>
+            <h2>Appeler ELECTRICITE SN</h2>
             <p>
               Besoin d’un électricien ? Coupures
               , fils défectueux, installations à

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-content">
         {/* Section principale */}
         <div className="footer-section footer-main">
-          <h2 className="footer-logo">⚡ Électricien Julien</h2>
+          <h2 className="footer-logo">⚡ ELECTRICITE SN</h2>
           <p className="footer-tagline">Votre expert en électricité plus de 25ans</p>
           <p className="footer-description">
             Service professionnel et fiable pour tous vos besoins électriques.
@@ -55,7 +55,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-bottom-content">
           <p className="footer-copyright">
-            © 2026 Électricien Julien. Tous droits réservés.
+            © 2026 ELECTRICITE SN. Tous droits réservés.
           </p>
           <div className="footer-badges">
             <span className="quality-badge">✓ Certifié</span>
