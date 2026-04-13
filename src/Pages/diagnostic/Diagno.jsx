@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+﻿import React, { useEffect, useRef } from 'react'
 import "./Diagno.css"
 import Cart from '../../components/Cart'
 import Button from '../../components/Button'
@@ -60,7 +60,7 @@ const Diagno = () => {
   return (
     <div ref={containerRef} className='diagno-container' >
 
-      <Marquee textContainer={"text-marquee-diagno"} classNameMarquee={"container-maquee-diagno"} text={"06 27 16 65 72 - Urgence 24H/24 7J/7"} />
+      <Marquee textContainer={"text-marquee-diagno"} classNameMarquee={"container-maquee-diagno"} text={"06 27 16 65 72 - Lundi-samedi 9h à 18h"} />
 
       <h1 id="pre-diagnostic-title" className='h1' >Pré-Diagnostic Gratuit</h1>
 
@@ -82,7 +82,7 @@ const Diagno = () => {
           <div className="det">
             <h2>Pré-Diagnostic Gratuit</h2>
             <p>
-              réponds gratuitement 24H/24 7J/7 par
+              réponds gratuitement Lundi-samedi 9h à 18h par
               téléphone. Nous identifions votre
               cas de figure en quelques instants.
             </p>

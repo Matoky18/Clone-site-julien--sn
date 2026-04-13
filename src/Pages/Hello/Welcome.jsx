@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+﻿import React, { useEffect, useRef } from 'react'
 import Button from '../../components/Button'
 import './Welcome.css'
 import Marquee from '../../components/Marquee'
@@ -112,7 +112,7 @@ const Welcome = () => {
 
             <div className='header-welcome-page' >
                 <div ref={logoRef} className="logo"></div>
-                <div className="num"> <div ref={numContentRef} className="num-content"><i ref={phoneIconRef} className='bx bxs-phone' style={{ marginRight: "10px", display: "inline-block" }}></i>06 27 16 65 72<span className="desktop-text"> - Urgence 24H/24 7J/7</span></div> </div>
+                <div className="num"> <div ref={numContentRef} className="num-content"><i ref={phoneIconRef} className='bx bxs-phone' style={{ marginRight: "10px", display: "inline-block" }}></i>06 27 16 65 72<span className="desktop-text"> - Lundi-samedi 9h à 18h</span></div> </div>
                 <Button onclick={() => { }} buttonName={"Appelez-maintenant"} classNameButton={`cta-welcome ${isStickyHidden ? 'sticky-hidden' : ''}`} iconButton={<i className='bx bxs-phone-call' style={{ marginRight: "10px" }} ></i>} phoneNumber={"06 27 16 65 72"} />
             </div>
 
@@ -130,7 +130,7 @@ const Welcome = () => {
             </div>
 
             <div ref={imageWelcomeRef} className="image-urgence">
-                <div ref={urgenceRef} className="urgence">Urgence 24H/24 7J/7</div>
+                <div ref={urgenceRef} className="urgence">Lundi-samedi 9h-18h</div>
                 <div className="image-welcome"></div>
             </div>
 

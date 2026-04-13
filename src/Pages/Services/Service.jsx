@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+﻿import React, { useEffect, useRef } from 'react'
 import Cart from '../../components/Cart'
 import "./Service.css"
 import install from "../../assets/install.webp"
@@ -43,7 +43,7 @@ const Service = () => {
   return (
     <div ref={containerRef} className='container-service' >
 
-      <Marquee text={"06 27 16 65 72 - Urgence 24H/24 7J/7  "} textContainer={"marquee-service"} classNameMarquee={"Marquee-conaiter"} />
+      <Marquee text={"06 27 16 65 72 - Lundi-samedi 9h à 18h  "} textContainer={"marquee-service"} classNameMarquee={"Marquee-conaiter"} />
       <div className="hero-service">
 
         <Cart buttonCartName={"Contactez-nous"}
