@@ -118,7 +118,7 @@ const Welcome = () => {
 
             <div ref={phrasesRef} className="phrases">
 
-                <h1> ELECTRICITE SN</h1>
+                <h1>ELECTRICITE SN</h1>
                 <h2 className="experience-text">Plus de 25 ans d’expérience</h2>
 
                 <h3>
@@ -130,7 +130,7 @@ const Welcome = () => {
             </div>
 
             <div ref={imageWelcomeRef} className="image-urgence">
-                <div ref={urgenceRef} className="urgence">Lundi-samedi 9h-18h</div>
+                <div ref={urgenceRef} className="urgence">Avignon et ses environs</div>
                 <div className="image-welcome"></div>
             </div>
 

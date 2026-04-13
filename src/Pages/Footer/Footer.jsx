@@ -31,7 +31,7 @@ const Footer = () => {
           <h3 className="footer-title">Nos Services</h3>
           <ul className="footer-list">
             <li className="footer-item">Installation électrique</li>
-            <li className="footer-item">Dépannage d'urgence</li>
+            <li className="footer-item">Dépannage électrique</li>
             <li className="footer-item">Mise aux normes</li>
             <li className="footer-item">Rénovation électrique</li>
           </ul>
@@ -42,8 +42,8 @@ const Footer = () => {
           <h3 className="footer-title">Disponibilité</h3>
           <ul className="footer-list">
             <li className="footer-item">
-              <span className="footer-badge">24/7</span>
-              Urgences
+              <span className="footer-badge">Lun-Sam</span>
+              9h à 18h
             </li>
 
 
