@@ -27,8 +27,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    column-gap: clamp(20px, 4vw, 40px);
-    row-gap: clamp(24px, 4vw, 40px);
+    /* column-gap: clamp(20px, 4vw, 40px); */
+    row-gap: clamp(10px, 2vw, 40px);
     padding-bottom: clamp(24px, 4vw, 40px);
 }
 

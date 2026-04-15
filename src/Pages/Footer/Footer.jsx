@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Section principale */}
         <div className="footer-section footer-main">
           <h2 className="footer-logo">⚡ ELECTRICITE SN</h2>
-          <p className="footer-tagline">Votre expert en électricité plus de 25ans</p>
+          <p className="footer-tagline">Votre expert en électricité plus de XXans</p>
         </div>
 
         {/* Contact */}
